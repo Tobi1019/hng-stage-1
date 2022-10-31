@@ -93,7 +93,7 @@ function App() {
             className="w-8 rounded-full border-sky-500 m-2"
           />
         </a>
-        <a href="https://github.com/Tobi1019" id="github">
+        <a href="https://github.com/Tobi1019/hng-stage-1" id="github">
           <img id="git"
             src={Github}
             alt="github"
