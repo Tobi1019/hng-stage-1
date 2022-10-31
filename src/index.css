@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+.rightMobile {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
+.rightDesktop {
+  position: absolute;
+  top: 20px;
+  right: 350px;
+  padding: 10px;
+}
+#dot{
+display: none;
+}
+.overlay {
+  position: absolute;
+  top: 14.5%;
+  left: 33%;
+  width: 425px;
+  height: 225px;
+  opacity: 0;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+#foot1{
+ padding-right: 300px;
+}
+#foot2{
+  padding-right: 250px;
+}
+#line{
+  width: 110%;
+  border: 1px solid #e5e7eb;
+}
+.icon {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  text-align: center;
+}
+#git{
+    padding-left: 100px;
+  }
+.leftt{
+  padding-right: 2000px;
+}
+#twitter,#books,#book_python,#btn_zuri,#pitch,#book_design{
+  font-size: 14px;
+  padding: 20px 40px 20px 40px;
+  line-height: 20px;
+  text-align: center;
+  word-spacing: 0px;
+  border-radius: 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 60px;
+  width: 728.453px;
+  border: 0px solid #e5e7eb;
+  margin: 20px 0 20px 0;
+  padding: 20px 20px 20px 20px;
+  display: block;
+  background-color: #e5e7eb;
+}
+#twitter:hover{
+ background-color: #d1d5db;
+}
+#btn_zuri:hover{
+  background-color: #d1d5db;
+ }
+ #books:hover{
+  background-color: #d1d5db;
+ }
+ #book_design:hover{
+  background-color: #d1d5db;
+ }
+ #pitch:hover{
+  background-color: #d1d5db;
+ }
+ #book_python:hover{
+  background-color: #d1d5db;
+ }
+a{
+  color:black; 
+}
+
+@media only screen and (max-width: 768px) {
+  .overlay {
+    display: none;
+    opacity: 0;
+  }
+  #dot{
+    display: flex;
+  }
+  #li{
+    display: none;
+  }
+  #twitter,#books,#book_python,#btn_zuri,#pitch,#book_design{
+    height:60px;
+    width: 434.688px;
+    border: 0px solid #e5e7eb;
+    margin: 20px 0 20px 0;
+    padding: 20px 20px 20px 20px;
+    display: block;
+  }
+  #foot1{
+    padding-right: 100px;
+    border: 0p solid #e5e7eb;
+    margin: 20px 150px 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+  }
+  #foot2{
+    padding-right: 100px;
+    border: 0p solid #e5e7eb;
+    margin: 20px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+  }
+  #foot3{
+    padding-right: 100px;
+    border: 0p solid #e5e7eb;
+    margin: 20px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+  }
+}
+
